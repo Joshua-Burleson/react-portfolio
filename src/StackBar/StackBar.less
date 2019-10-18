@@ -1,0 +1,46 @@
+.top-technologies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .stack-bar {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .stack-top, .stack-bottom { 
+            display: flex;
+            margin: 2% 0;
+
+            li {
+                margin-right: 4%;
+                img {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+
+            :nth-child(1){
+                margin-left: -5%;
+            }
+
+        }
+
+        .stack-bottom { 
+            :nth-child(2) {
+                img {
+                    width: 75px;
+                    width: 75px;
+                } 
+                margin-right: 1%;
+                margin-left: 1%;
+            }
+
+            :nth-child(1){
+                margin-left: -4%;
+            }
+        }
+
+
+    }
+}

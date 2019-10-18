@@ -3,15 +3,15 @@ import {Route} from 'react-router-dom';
 import Navbar from './Navbar/Navbar';
 import Home from './Home/Home';
 import SocialBar from './SocialBar/SocialBar';
-import DefaultPage from './Example';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Route path="/" component={Navbar}/>
-      <Route exact path={["/", "/home"]} component={Home}/>
-      <Route path="/about" render={() => <Home additionalComponent={SocialBar} />}/>
+      <Route exact path="/" render={() => <Home additionalComponent={SocialBar} animate={true}/> } />
+      <Route path="/home" render={() => <Home additionalComponent={SocialBar} />}/>
+      <Route path="/about" component={Home}/>
     </div>
   );
 }
