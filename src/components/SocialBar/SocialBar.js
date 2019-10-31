@@ -1,7 +1,7 @@
 import React from 'react';
-import githubIcon from '../images/github.png';
-import linkedInIcon from '../images/linkedin.png';
-import twitterIcon from '../images/twitter.png';
+import githubIcon from '../../images/github.png';
+import linkedInIcon from '../../images/linkedin.png';
+import twitterIcon from '../../images/twitter.png';
 
 function SocialBar(){
     return(

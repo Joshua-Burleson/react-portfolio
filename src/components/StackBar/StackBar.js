@@ -1,10 +1,10 @@
 import React from 'react';
-import nodeIcon from '../images/nodeicon.png';
-import reactIcon from '../images/reacticon.png';
-import lessIcon from '../images/lessicon.png';
-import mongoIcon from '../images/mongoicon.png';
-import gitIcon from '../images/giticon.png';
-import expressIcon from '../images/expressicon.svg';
+import nodeIcon from '../../images/nodeicon.png';
+import reactIcon from '../../images/reacticon.png';
+import lessIcon from '../../images/lessicon.png';
+import mongoIcon from '../../images/mongoicon.png';
+import gitIcon from '../../images/giticon.png';
+import expressIcon from '../../images/expressicon.svg';
 
 function StackBar(){
     return (

@@ -1,0 +1,39 @@
+.Collapsible {
+    .flex(column);
+
+    .Collapsible__trigger {
+        .flex();
+        background: red;
+        border: 1px solid black;
+        width: 90%;
+        height: 30px;
+        box-sizing: border-box;
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        &:after {
+            font-family: 'FontAwesome';
+            content: '\f107';
+            position: absolute;
+            right: 7%;
+            margin-top: -3px;
+            transition: transform 600ms;
+            color: black;
+          }
+        
+          &.is-open {
+            &:after {
+              transform: rotateZ(180deg);
+            }
+          }
+
+    }
+
+    .Collapsible__contentOuter {
+        background: gray;
+        width: 90%;
+    }
+
+}
