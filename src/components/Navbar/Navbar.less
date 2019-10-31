@@ -1,0 +1,38 @@
+nav{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 6.5vh;
+    background: black;
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.57);
+
+    img{
+        position: absolute;
+        height: 90%;
+        left: 0;
+        top: 5%;
+    }
+
+    .active{
+        color: white;
+    }
+
+    a{
+        color: red;
+        text-decoration: none;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: white;
+        }
+
+    }
+
+    :nth-child(2) {
+        margin-left: -10%;
+    }
+
+}
