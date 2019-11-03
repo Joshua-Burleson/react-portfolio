@@ -1,0 +1,40 @@
+{
+    "projects": [
+        {
+            "name": "React Wars",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "description": "SWAPI consuming React app with React Router",
+            "link": "https://github.com/Joshua-Burleson/Sprint-Challenge-React-Wars/pull/1"
+        },
+        {
+            "name": "NASA Photo of the Day",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "description": "NASA APOD API consuming React App utlizing hooks",
+            "link": "https://github.com/Joshua-Burleson/nasa-photo-of-the-day/pull/1"
+        },
+        {
+            "name": "Vax & Track",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "description": "Full Stack Vaccination Tracking Application developed with a team of 5",
+            "link": "https://vaxandtrack.netlify.com/"
+        },
+        {
+            "name": "Lambda Calculator",
+            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "description": "Modern React Calculator Application, utilizing hooks",
+            "link": "https://vaxandtrack.netlify.com/"
+        },
+        {
+            "name": "Apple Nav",
+            "img": "https://raw.githubusercontent.com/Joshua-Burleson/Another-React-Lib/master/docs/images/aReactLib.png",
+            "description": "Apple.com navigation menu clone utlizing react-router",
+            "link": "https://github.com/Joshua-Burleson/Another-React-Lib"
+        },
+        {
+            "name": "Another React Lib",
+            "img": "https://raw.githubusercontent.com/Joshua-Burleson/Another-React-Lib/master/docs/images/aReactLib.png",
+            "description": "Open Source Reusable React Components Library",
+            "link": "https://github.com/Joshua-Burleson/Another-React-Lib"
+        }
+    ]
+}

@@ -3,10 +3,10 @@
 
     .Collapsible__trigger {
         .flex();
-        background: red;
+        background: purple;
         border: 1px solid black;
-        width: 90%;
-        height: 30px;
+        width: 60%;
+        height: 40px;
         box-sizing: border-box;
 
         &:hover{
@@ -17,10 +17,14 @@
             font-family: 'FontAwesome';
             content: '\f107';
             position: absolute;
-            right: 7%;
-            margin-top: -3px;
+            right: 22%;
+            margin-top: -1px;
+            width: 20px;
             transition: transform 600ms;
-            color: black;
+            font-weight: 800;
+            color: violet;
+            background-color: royalblue;
+            clip-path: circle();
           }
         
           &.is-open {
@@ -33,7 +37,7 @@
 
     .Collapsible__contentOuter {
         background: gray;
-        width: 90%;
+        width: 60%;
     }
 
 }
