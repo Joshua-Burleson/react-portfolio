@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <Route path="/" component={Navbar}/>
-      <Route exact path="/" render={() => <Home additionalComponent={SocialBar} animate={true}/> } />
+      <Route exact path="/" render={props => <Home {...props} additionalComponent={SocialBar} animate={true}/> } />
       <Route path="/home" component={Home}/>
-      <Route path="/projects" render={() => <Projects additionalComponent={FAQ} />}/>
-      <Route path="/about" render={() => <Home additionalComponent={FAQ} />}/>
+      <Route path="/projects" render={props => <Projects {...props} additionalComponent={FAQ} />}/>
+      <Route path="/about" render={props => <Home {...props} additionalComponent={FAQ} />}/>
     </div>
   );
 }
