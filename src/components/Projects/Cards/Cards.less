@@ -1,20 +1,35 @@
 .profile-card {
-    .flex(column);
-    flex-wrap: wrap;
-    margin: 25px;
-    border: 2px solid white;
-    box-sizing: border-box;
-    color: red;
-    padding: 5px 8px;
-    width: 30vw;
-    height: 35vh;
-    img {
-        width: 80%;
-        height: 70%;
-        margin: 2% 0;
-    }
-
     a {
-        margin-top: 2%;
+        // margin-top: 2%;
+        .flex(column, flex-start);
+        flex-wrap: wrap;
+        margin: 25px;
+        border: 2px solid white;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        width: 27vw;
+        height: 32vh;
+        color: @declaration;
+        text-decoration: none;
+
+        h3 {
+            margin-top: 10px;
+        }
+
+        img {
+            width: 80%;
+            height: 60%;
+            margin: 4% 0;
+        }
+
+        p {
+            line-height: 1.25;
+        }
+
+        &:visited{
+            text-decoration: none;
+            color: @declaration;
+        }
+        
     }
 }

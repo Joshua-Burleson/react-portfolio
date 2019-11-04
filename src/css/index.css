@@ -295,6 +295,7 @@ h3 {
 nav {
   position: fixed;
   top: 0;
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -379,11 +380,13 @@ nav :nth-child(2) {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 50%;
 }
 .top-technologies .stack-bar .stack-top,
 .top-technologies .stack-bar .stack-bottom {
   display: flex;
-  margin: 2% 0;
+  width: 100%;
+  justify-content: space-around;
 }
 .top-technologies .stack-bar .stack-top li,
 .top-technologies .stack-bar .stack-bottom li {
@@ -393,10 +396,6 @@ nav :nth-child(2) {
 .top-technologies .stack-bar .stack-bottom li img {
   height: 60px;
   width: 60px;
-}
-.top-technologies .stack-bar .stack-top :nth-child(1),
-.top-technologies .stack-bar .stack-bottom :nth-child(1) {
-  margin-left: -5%;
 }
 .top-technologies .stack-bar .stack-bottom :nth-child(2) {
   margin-right: 1%;
@@ -424,13 +423,31 @@ nav :nth-child(2) {
 .social-bar li:last-child {
   margin-right: 0;
 }
-.Collapsible {
+.about {
+  margin-top: 10px;
+}
+.about p {
+  width: 60%;
+  margin: 0 auto 10px;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+.about p a {
+  color: red;
+}
+.about p a:visited {
+  color: red;
+}
+.about .accordion h3 {
+  margin-bottom: 8px;
+}
+.about .accordion .Collapsible {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.Collapsible .Collapsible__trigger {
+.about .accordion .Collapsible .Collapsible__trigger {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -440,11 +457,12 @@ nav :nth-child(2) {
   width: 60%;
   height: 40px;
   box-sizing: border-box;
+  border-radius: 4px;
 }
-.Collapsible .Collapsible__trigger:hover {
+.about .accordion .Collapsible .Collapsible__trigger:hover {
   cursor: pointer;
 }
-.Collapsible .Collapsible__trigger:after {
+.about .accordion .Collapsible .Collapsible__trigger:after {
   font-family: 'FontAwesome';
   content: '\f107';
   position: absolute;
@@ -457,37 +475,77 @@ nav :nth-child(2) {
   background-color: royalblue;
   clip-path: circle();
 }
-.Collapsible .Collapsible__trigger.is-open:after {
+.about .accordion .Collapsible .Collapsible__trigger.is-open:after {
   transform: rotateZ(180deg);
 }
-.Collapsible .Collapsible__contentOuter {
+.about .accordion .Collapsible .Collapsible__contentOuter {
   background: gray;
-  width: 60%;
+  width: 59.8%;
 }
-.profile-card {
+.about .accordion .Collapsible .Collapsible__contentInner ul li {
+  margin: 10px 0;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+}
+form label:first-child {
+  margin-left: 15%;
+}
+form input {
+  margin-left: 2px;
+  height: 100%;
+}
+.other {
+  color: #ccc;
+}
+.declaration {
+  color: #cc99cd;
+}
+.number {
+  color: #f08d49;
+}
+.operator {
+  color: #67cdcc;
+}
+.profile-card a {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   margin: 25px;
   border: 2px solid white;
   box-sizing: border-box;
-  color: red;
-  padding: 5px 8px;
-  width: 30vw;
-  height: 35vh;
+  padding: 5px 10px;
+  width: 27vw;
+  height: 32vh;
+  color: #cc99cd;
+  text-decoration: none;
 }
-.profile-card img {
+.profile-card a h3 {
+  margin-top: 10px;
+}
+.profile-card a img {
   width: 80%;
-  height: 70%;
-  margin: 2% 0;
+  height: 60%;
+  margin: 4% 0;
 }
-.profile-card a {
-  margin-top: 2%;
+.profile-card a p {
+  line-height: 1.25;
 }
-.projects {
-  margin-top: 8vh;
+.profile-card a:visited {
+  text-decoration: none;
+  color: #cc99cd;
+}
+.project-wrapper {
+  margin-top: 10vh;
+}
+.project-wrapper h1 {
+  margin-bottom: 3vh;
+  color: #f08d49;
+}
+.project-wrapper .projects {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;

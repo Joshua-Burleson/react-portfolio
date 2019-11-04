@@ -10,25 +10,25 @@
             "name": "NASA Photo of the Day",
             "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
             "description": "NASA APOD API consuming React App utlizing hooks",
-            "link": "https://github.com/Joshua-Burleson/nasa-photo-of-the-day/pull/1"
+            "link": "https://vigorous-wozniak-67306f.netlify.com/"
         },
         {
             "name": "Vax & Track",
-            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5d9394d534df81000886cf62/screenshot.png",
             "description": "Full Stack Vaccination Tracking Application developed with a team of 5",
             "link": "https://vaxandtrack.netlify.com/"
         },
         {
             "name": "Lambda Calculator",
-            "img": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_956a88c2.jpeg?region=1%2C93%2C999%2C500&width=960",
+            "img": "https://raw.githubusercontent.com/Joshua-Burleson/Another-React-Lib/master/docs/images/aReactLib.png",
             "description": "Modern React Calculator Application, utilizing hooks",
-            "link": "https://vaxandtrack.netlify.com/"
+            "link": "https://github.com/Joshua-Burleson/lambda-calculator"
         },
         {
             "name": "Apple Nav",
-            "img": "https://raw.githubusercontent.com/Joshua-Burleson/Another-React-Lib/master/docs/images/aReactLib.png",
+            "img": "https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/5d9394d534df81000886cf62/screenshot.png",
             "description": "Apple.com navigation menu clone utlizing react-router",
-            "link": "https://github.com/Joshua-Burleson/Another-React-Lib"
+            "link": "https://github.com/Joshua-Burleson/React-Router-Apple-Nav"
         },
         {
             "name": "Another React Lib",

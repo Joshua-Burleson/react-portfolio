@@ -7,10 +7,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 50%;
 
         .stack-top, .stack-bottom { 
             display: flex;
-            margin: 2% 0;
+            width: 100%;
+            justify-content: space-around;
 
             li {
                 margin-right: 4%;
@@ -19,11 +21,6 @@
                     width: 60px;
                 }
             }
-
-            :nth-child(1){
-                margin-left: -5%;
-            }
-
         }
 
         .stack-bottom { 
